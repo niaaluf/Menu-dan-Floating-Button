@@ -10,17 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LinearLayout">
         <activity
+            android:name=".HalamanDaftar"
+            android:parentActivityName=".MainActivity"
+            android:exported="false"
+            />
+        <activity
             android:name=".MainActivity"
-            android:label="@string/label2"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/label2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivtyHasil"
-></activity>
+        <activity android:name=".ActivtyHasil" />
     </application>
 
 </manifest>
